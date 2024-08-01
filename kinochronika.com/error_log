@@ -1,0 +1,40 @@
+[14-Sep-2019 19:14:19 UTC] PHP Notice:  Undefined index: REMOTE_ADDR in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 3
+[14-Sep-2019 19:14:19 UTC] PHP Notice:  Undefined index: REMOTE_HOST in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 4
+[14-Sep-2019 19:14:19 UTC] PHP Notice:  Undefined index: name in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 6
+[14-Sep-2019 19:14:19 UTC] PHP Notice:  Undefined index: email in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 7
+[14-Sep-2019 19:14:19 UTC] PHP Notice:  Undefined index: comments in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 8
+[14-Sep-2019 19:14:19 UTC] PHP Notice:  Undefined variable: email_address in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 29
+[14-Sep-2019 19:14:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'prima'@'localhost' (using password: YES) in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 52
+[14-Sep-2019 19:14:19 UTC] PHP Notice:  Undefined index: name in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 62
+[14-Sep-2019 19:14:19 UTC] PHP Notice:  Undefined index: email in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 62
+[14-Sep-2019 19:14:19 UTC] PHP Notice:  Undefined index: comments in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 62
+[14-Sep-2019 19:14:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 62
+[14-Sep-2019 19:14:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 65
+[14-Sep-2019 19:14:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 67
+[14-Sep-2019 19:14:19 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nudjfah3xc9b/public_html/kinochronika.com/demo6.php on line 76
+[14-Sep-2019 19:15:32 UTC] PHP Notice:  Undefined index: REMOTE_ADDR in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 3
+[14-Sep-2019 19:15:32 UTC] PHP Notice:  Undefined index: REMOTE_HOST in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 4
+[14-Sep-2019 19:15:32 UTC] PHP Notice:  Undefined index: name in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 6
+[14-Sep-2019 19:15:32 UTC] PHP Notice:  Undefined index: email in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 7
+[14-Sep-2019 19:15:32 UTC] PHP Notice:  Undefined index: comments in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 8
+[14-Sep-2019 19:15:32 UTC] PHP Notice:  Undefined variable: email_address in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 29
+[14-Sep-2019 19:15:32 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'prima'@'localhost' (using password: YES) in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 52
+[14-Sep-2019 19:15:32 UTC] PHP Notice:  Undefined index: name in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 62
+[14-Sep-2019 19:15:32 UTC] PHP Notice:  Undefined index: email in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 62
+[14-Sep-2019 19:15:32 UTC] PHP Notice:  Undefined index: comments in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 62
+[14-Sep-2019 19:15:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 62
+[14-Sep-2019 19:15:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 65
+[14-Sep-2019 19:15:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 67
+[14-Sep-2019 19:15:32 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 76
+[14-Sep-2019 19:18:28 UTC] PHP Notice:  Undefined index: REMOTE_ADDR in php shell code on line 1
+[14-Sep-2019 19:19:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in php shell code on line 2
+[14-Sep-2019 19:20:58 UTC] PHP Notice:  Undefined index: REMOTE_ADDR in php shell code on line 1
+[14-Sep-2019 19:46:08 UTC] PHP Notice:  Undefined index: REMOTE_ADDR in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 3
+[14-Sep-2019 19:46:08 UTC] PHP Notice:  Undefined index: REMOTE_HOST in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 4
+[14-Sep-2019 19:46:08 UTC] PHP Notice:  Undefined index: name in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 6
+[14-Sep-2019 19:46:08 UTC] PHP Notice:  Undefined index: email in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 7
+[14-Sep-2019 19:46:08 UTC] PHP Notice:  Undefined index: comments in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 8
+[14-Sep-2019 19:46:08 UTC] PHP Notice:  Undefined variable: email_address in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 29
+[14-Sep-2019 19:46:08 UTC] PHP Notice:  Undefined index: name in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 62
+[14-Sep-2019 19:46:08 UTC] PHP Notice:  Undefined index: email in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 62
+[14-Sep-2019 19:46:08 UTC] PHP Notice:  Undefined index: comments in /home/nudjfah3xc9b/public_html/kinochronika.com/boris_test.php on line 62

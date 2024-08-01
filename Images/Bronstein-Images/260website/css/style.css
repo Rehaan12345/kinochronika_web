@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+ 
+    width: 60px;
+    background-color: #dddddd;
+}
+li {
+    display: inline;
+}
+header {background-color:#771C1D;}
+#wrapper {width:90%;
+margin-right:auto;
+margin-left:auto;}

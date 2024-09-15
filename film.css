@@ -280,7 +280,7 @@ dt {
     text-shadow: 1px 1px 4px #000000da;
 }
 
-.arrow-container a:{
+.arrow-container a{
     text-decoration:none;
 }
 
@@ -795,7 +795,7 @@ table, form {
         .hero blockquote {
             font-size: 1em;
             padding:20px;
-            max-height:
+            /* max-height: */
         }
         .hero1 blockquote {
             font-size: 1em;
@@ -928,21 +928,90 @@ form {margin-left:1px;
 	  margin-top:1px;
 	  width:50%;
 	  color:#000;
-	  font-size:1.2em;
+	  font-size:1.2em; }
 
 @media only screen and (max-width: 1025px) {
     .gallery-container {
         width: 49%;
     }
-
-
+}
 
 @media only screen and (max-width: 800px) {
     .gallery-container {
         width: 100%;
     }
 
-
-
-
+} 
     /*Coded for Kinochronika Films by Michael Miano, March 2019*/
+
+/* Logo: */
+.logowrappers {
+    padding: 2rem;
+    float: left;
+}
+
+.gbh2logo  {
+    max-width: 22rem;
+    min-width: 5rem;
+    max-height: 44rem;
+    min-height: 10rem;
+}
+
+.pbslogo {
+    max-width: 10rem;
+    min-width: 5rem;
+    max-height: 20rem;
+    min-height: 10rem;
+}
+
+/* Columns: */
+/* .columns {
+    border: 3px solid red;
+}
+
+.col-one {
+    border: 3px solid green;
+}
+
+.col-two {
+    border: 3px solid blue;
+}
+
+.wrapper {
+    border: 3px solid black;
+}
+
+.hero {
+    border: 3px solid yellow;
+} */
+
+.isactive {
+    border-bottom: 3px solid black;
+    /* color: red; */
+}
+
+/* About page: */
+.contactwrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactinfowrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+}
+
+.contactimg {
+    width: 120px;
+    height: 130px;
+    margin: 2rem;
+}
+
+.posterimg {
+    width: 240px;
+    height: 360px;
+}

@@ -27,68 +27,144 @@
 
     
 </head>
-<body>
-<div id="fullpage">    
- 
-    <div>
-        <nav>
-            <a href="index.html">
-                <img src="logo.png" />
-            </a>
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="work.html">Work</a>
-                <a href="news.html">News</a>
-                <a href="contact.html">Contact</a>
-            </div>
+<style>
+    #promo {width: 250px;
+    float:right;}
 
-            <!-- Use any element to open the sidenav -->
-            <button id="mySidenav" onclick="openNav()"> &#9776;</button>
-        
-            <div id="navbox" style="padding-bottom:-3em;">
-                <a link href="index.html">Home</a>&nbsp;&nbsp;
-                <a link href="work.html">Work</a>&nbsp;&nbsp;
-                <a link href="about.html">About</a>&nbsp;&nbsp;
-                <a link href="https://nefilm.wordpress.com">News</a>&nbsp;&nbsp;
-                <a link href="contact.html">Contact</a>
-            </div>
-        
-            <div id="social">
-                <a link href="https://youtube.com/user/tatyanabr" target="_blank">
-                    <img src="Icons/ytbe.png" style="width:40px;padding-right:10px" />
-                </a>
-                <a link href="https://www.amazon.com/s?k=Tatyana+Bronstein&i=instant-video&rh=n%3A2858778011&ref=atv_dp_pd_dir" target="_blank">
-                    <img src="Icons/amazon.png" style="width:40px;padding-right:10px" />
-                </a>
-                <a link href="https://vimeo.com/user9047467" target="_blank">
-                    <img src="Icons/vimeo.png" style="width:40px;padding-right:10px;" />
-                </a>
-                <a link href="https://500px.com/tatyana_bronstein/galleries" target="_blank">
-                    <img src="Icons/500px.png" style="width:40px;padding-right:10px;" />
-                </a>
-            </div>
-        
-        
-        </nav>
-    </div>
-    <div style="background:black;">
-     
+    .dropbtn {
+        background-color: #ffffff;
+        color: black;
+        padding: 16px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+        margin-left: -2rem;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: -2rem;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        border-bottom: 1px solid black;
+    }
     
-        <div class="stickytitle" style="background-color:rgb(0, 0, 0);">
-        <menu>
-            <h3>Films</h3>
-            <a link href="work.html">Featured</a>
-            <a link href="films.html">Films</a>
-            <a href="clips.html">Art Clips</a>
-            <a link href="commercials.html">Commercials</a>
-        </menu>
-    </div>
+</style>
+<body>
+    <nav>
+        <a href="index.html">
+            <img src="logo.png" />
+        </a>
+        <div id="mySidenav" class="sidenav">
+            <a class="navlink" link href="index.html">Home</a>&nbsp;&nbsp;
+            <a class="navlink" link href="about.html">About</a>&nbsp;&nbsp;
+            <div class="dropdown">
+                <button class="dropbtn">Films</button>
+                <div class="dropdown-content">
+                    <a href="films.html">All films</a>
+                    <a href="womaninthemirror.html">Woman in the Mirror</a>
+                    <a href="prima.html">Prima</a>
+                    <a href="makemedance.html">Make Me Dance</a>
+                    <a href="lovemeagain.html">Love Me Again</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Work</button>
+                <div class="dropdown-content">
+                    <a href="commercials.html">Commercials</a>
+                    <a href="clips.html">Art</a>
+                    <a href="droneworks.html">DroneWorks</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <a class="navlink" href="screenings.html">Screenings</a>
+            <a class="navlink" href="posters.html">Posters</a>
+            <a class="navlink" href="contact.html">Contact</a>
+        </div>
 
-    <div style="background:Black">   
- 
-        
+        <!-- Use any element to open the sidenav -->
+        <button id="mySidenav" onclick="openNav()">&#9776;</button>
+
+        <div id="navbox">
+            <a class="navlink" link href="index.html">Home</a>&nbsp;&nbsp;
+            <a class="navlink" link href="about.html">About</a>&nbsp;&nbsp;
+            <div class="dropdown">
+                <button class="dropbtn">Films</button>
+                <div class="dropdown-content">
+                    <a href="films.html">All films</a>
+                    <a href="womaninthemirror.html">Woman in the Mirror</a>
+                    <a href="prima.html">Prima</a>
+                    <a href="makemedance.html">Make Me Dance</a>
+                    <a href="lovemeagain.html">Love Me Again</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Work</button>
+                <div class="dropdown-content">
+                    <a href="commercials.html">Commercials</a>
+                    <a href="clips.html">Art</a>
+                    <a href="droneworks.html">DroneWorks</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <a class="navlink" href="screenings.html">Screenings</a>
+            <a class="navlink" href="posters.html">Posters</a>
+            <a class="navlink" href="contact.html">Contact</a>
+        </div>
+
+        <div id="social">
+            <!-- <a href="news.html">News & Updates</a>&nbsp;&nbsp; -->
+            <!-- <a href="#">Press</a> -->
+            <a link href="https://www.facebook.com/movie.documentary" target="_blank">
+                <img src="Icons/fb.png" style="width:40px;padding-right:10px;" />
+            </a>
+			<a link href="https://youtube.com/user/tatyanabr" target="_blank">
+                <img src="Icons/ytbe.png" style="width:40px;padding-right:10px" />
+            </a>
+            <a link href="https://www.amazon.com/s?k=Tatyana+Bronstein&i=instant-video&rh=n%3A2858778011&ref=atv_dp_pd_dir" target="_blank">
+                <img src="Icons/amazon.png" style="width:45px;padding-right:10px" />
+            </a>
+            <a link href="https://vimeo.com/user9047467" target="_blank">
+                <img src="Icons/vimeo.png" style="width:40px;padding-right:10px;" />
+            </a>
+            <a link href="https://500px.com/tatyana_bronstein/galleries" target="_blank">
+                <img src="Icons/500px.png" style="width:40px;padding-right:10px;" />
+            </a>
+			  
+        </div>
+    
+    </nav>
+<div id="fullpage">    
     <div class="section">
     <div class="hero" style="background-image:url(Images/prima.jpg);height:87vh;">
         

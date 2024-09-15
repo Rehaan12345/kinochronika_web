@@ -28,9 +28,52 @@
         });</script>
     <script src="script/script.js"></script>
     <style>
-   #promo {width: 250px;
-   float:right;}
-       </style>
+        #promo {width: 250px;
+        float:right;}
+
+        .dropbtn {
+            background-color: #ffffff;
+            color: black;
+            padding: 16px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+            margin-left: -2rem;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            margin-left: -2rem;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            border-bottom: 1px solid black;
+        }
+        
+    </style>
 </head>
 <body>
     <nav>
@@ -38,26 +81,71 @@
             <img src="logo.png" />
         </a>
         <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="work.html">Work</a>
-            <a href=""https://www.facebook.com/movie.documentary" target="_blank"">News</a>
-            <a href="contact.html">Contact</a>
+            <a class="navlink" link href="index.html">Home</a>&nbsp;&nbsp;
+            <a class="navlink" link href="about.html">About</a>&nbsp;&nbsp;
+            <div class="dropdown">
+                <button class="dropbtn">Films</button>
+                <div class="dropdown-content">
+                    <a href="films.html">All films</a>
+                    <a href="womaninthemirror.html">Woman in the Mirror</a>
+                    <a href="prima.html">Prima</a>
+                    <a href="makemedance.html">Make Me Dance</a>
+                    <a href="lovemeagain.html">Love Me Again</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Work</button>
+                <div class="dropdown-content">
+                    <a href="commercials.html">Commercials</a>
+                    <a href="clips.html">Art</a>
+                    <a href="droneworks.html">DroneWorks</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <a class="navlink" href="screenings.html">Screenings</a>
+            <a class="navlink" href="posters.html">Posters</a>
+            <a class="navlink" href="contact.html">Contact</a>
         </div>
 
         <!-- Use any element to open the sidenav -->
         <button id="mySidenav" onclick="openNav()">&#9776;</button>
 
         <div id="navbox">
-            <a link href="index.html">Home</a>&nbsp;&nbsp;
-            <a link href="work.html">Work</a>&nbsp;&nbsp;
-            <a link href="about.html">About</a>&nbsp;&nbsp;
-               <a href="news.html">News</a>&nbsp;&nbsp;
-            <a link href="contact.html">Contact</a>
+            <a class="navlink" link href="index.html">Home</a>&nbsp;&nbsp;
+            <a class="navlink" link href="about.html">About</a>&nbsp;&nbsp;
+            <div class="dropdown">
+                <button class="dropbtn">Films</button>
+                <div class="dropdown-content">
+                    <a href="films.html">All films</a>
+                    <a href="womaninthemirror.html">Woman in the Mirror</a>
+                    <a href="prima.html">Prima</a>
+                    <a href="makemedance.html">Make Me Dance</a>
+                    <a href="lovemeagain.html">Love Me Again</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Work</button>
+                <div class="dropdown-content">
+                    <a href="commercials.html">Commercials</a>
+                    <a href="clips.html">Art</a>
+                    <a href="droneworks.html">DroneWorks</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <a class="navlink" href="screenings.html">Screenings</a>
+            <a class="navlink" href="posters.html">Posters</a>
+            <a class="navlink" href="contact.html">Contact</a>
         </div>
-    
+
         <div id="social">
+            <!-- <a href="news.html">News & Updates</a>&nbsp;&nbsp; -->
+            <!-- <a href="#">Press</a> -->
             <a link href="https://www.facebook.com/movie.documentary" target="_blank">
                 <img src="Icons/fb.png" style="width:40px;padding-right:10px;" />
             </a>
@@ -77,6 +165,7 @@
         </div>
     
     </nav>
+
     <div class="ct-header ct-header--slider ct-slick-custom-dots" id="home">
         <div class="ct-slick-homepage" data-arrows="true" data-autoplay="true">
 
@@ -87,9 +176,12 @@
                             <div class="row">
                                 <div class="col-md-8 col-lg-6 slider-inner">
                                     <h1 class="big">Woman in the Mirror&nbsp;</h1>
-                                    <p>A new documentary from Kinochronika.</p>
-                                    <a class="btn btn-transparent btn-lg text-uppercase" href="news.html">Learn More</a>
-									   <a class="btn btn-transparent btn-lg text-uppercase" href="https://fiscal.thegotham.org/project.cfm/2260/Woman-in-the-Mirror/">Donate to the project</a>
+                                    <p>
+                                        A new feature documentary by Tatyana Bronstein (2023)
+                                        A driven ballerina is leading a diverse group of ballet students in their difficult journey to become professional dancers.
+                                    </p>
+                                    <a class="btn btn-transparent btn-lg text-uppercase" href="womaninthemirror.html">Learn More</a>
+									   <a class="btn btn-transparent btn-lg text-uppercase" target="_blank" href="https://www.amazon.com/Woman-Mirror-Tatyana-Bronstein/dp/B0DDTDFGWJ/ref=sr_1_1?crid=HGZW4X4BJHPU&dib=eyJ2IjoiMSJ9.sfV_x19tgYOIo2RKLKbWlT8KbEuu0sNMBZHKz83B3oVMiqV_p3NsyBMdPgryDGUuiQSj26A-k_5Ak1bGqzlItLROcMYTf5okmAa7k6V_hiY7zegWBO6nxp_5mtuXmLbLt1CeNC8C118oh0MaxVgJCKCNrNN1HTe-mWwPew8KHj2qtzc-95qKUtcibJf8T3b8FGQ8ljSimqQLjZEaK8ofgsujrcmbL4TdUJxKHdwSPbU.4lhtfYzofRIgwI14VQ6g3MEFp0It9iJ9trWEbidHNQc&dib_tag=se&keywords=woman+in+the+mirror+movie&qid=1726436277&sprefix=woman+in+the+mirror+movi%2Caps%2C134&sr=8-1">Watch Now</a>
 									
                                 </div>
                             </div>
@@ -148,40 +240,70 @@
 -->
         </div><!-- .ct-slick-homepage -->
     </div><!-- .ct-header -->
+
     <main>
         <div id="wrapper">
-			
-            
-                
-                
-          <div class="hero" style="height: auto; min-height:20vh;width:100%;background: #3A1C11;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #FFAF2C, #B76B77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #FFAF7B, #D76C77, #8A5C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-">
-                       
+			   
+            <div class="hero" style="color: black;">
+                <div id="promo"; width:90%;></div>
 
+                <div class="columns">
+
+                    <div class="col-one">
+
+                        <p style="font-size:22px; color:black; padding:1%"> Newsroom<br><a link href="https://www.facebook.com/movie.documentary" target="_blank">See Facebook page for News</a>
+                            <h5 style="font-size:24px; color:black; padding:5px; float:left">
+                                <!-- <br> -->
+                                Don’t Miss "WOMAN IN THE MIRROR"!
+                                <br>
+                                Premiere: <u>Thursday, September 26</u> at <i>9pm</i> on GBH2
+                                <br>
+                                Encore: <u>Saturday, September 28</u> at <i>8pm</i> on GBH44
+                                <!-- <div class="logowrappers">
+                                    <img class="gbh2logo" src="./Images/gbh2logo.png" alt="gbh2logo"> 
+                                    <img class="pbslogo" src="./Images/pbslogo.png" alt="pbslogo">
+                                </div> -->
+                                <br><br>
+                                Coming Soon to <a href="https://www.amazon.com/Woman-Mirror-Tatyana-Bronstein/dp/B0DDTDFGWJ/ref=sr_1_1?crid=HGZW4X4BJHPU&dib=eyJ2IjoiMSJ9.sfV_x19tgYOIo2RKLKbWlT8KbEuu0sNMBZHKz83B3oVMiqV_p3NsyBMdPgryDGUuiQSj26A-k_5Ak1bGqzlItLROcMYTf5okmAa7k6V_hiY7zegWBO6nxp_5mtuXmLbLt1CeNC8C118oh0MaxVgJCKCNrNN1HTe-mWwPew8KHj2qtzc-95qKUtcibJf8T3b8FGQ8ljSimqQLjZEaK8ofgsujrcmbL4TdUJxKHdwSPbU.4lhtfYzofRIgwI14VQ6g3MEFp0It9iJ9trWEbidHNQc&dib_tag=se&keywords=woman+in+the+mirror+movie&qid=1726436277&sprefix=woman+in+the+mirror+movi%2Caps%2C134&sr=8-1" target="_blank">Streaming</a>! Stay Tuned!
+                                <!-- <br><br> -->
+                                <h3 class="big" style="color:black; padding:1%; float:right">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/t7HNCV1fA2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </h5>
+                     
+                    </div>
+    
+                    <div class="col-two">
+
+                        <p style="font-size:16px; color:black; padding:1%">
+                            <br><br><br>
+                            <p style="font-size:18px; color:black; padding:1%;"> 
+                                <i>It's amazing what goes into making something effortless.</i>
+                            </p>
+                        <p style="font-size:16px; color:black; padding:1%">
+                            Nestled in a small New England town is a powerhouse of a ballet school.
+                            Its genesis includes the dramatic story of a prima ballerina defecting from the Soviet Union, the tenuous climb to financial and artistic freedom, and a no-holds-barred student international competition. In a story revealed in dance studio mirrors, Alexandra, a graduate of the prestigious Vaganova Academy and a driven ballerina, toes her way from being a principal dancer of the Boston Ballet to leading a diverse group of ballet students to compete in a most prestigious competition as she navigates the challenges of running her elite school. 
+                            The Soviet Union was a primary example of loss of personal freedom in the 1960’s, but even in the 1990’s there were many problems with freedom of expression, of religious beliefs, and of political self-determination. Alexandra reflects on her life there and comes to understand that it was this innate antisemitism that drove her decision to leave Russia. This is the story of her transition to the American ballet stage that led, after a 25-year career, to a new role as a teacher, and to new challenges as she struggles to adapt to the educational styles of American ballet.
+                        </p>
+
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+
+                    <p class="whoareweinfo" style="font-size:14px; color:black; padding-left:1%">
+
+                        <p style="font-size:22px; color:rgb(92, 100, 205); padding:1%"> Who we are</p>
                             
-                              <div id="promo"; width:90%;>
-                    </div><p style="font-size:22px; color:whitesmoke; padding:1%"> Newsroom<br><a link href="https://www.facebook.com/movie.documentary" target="_blank">See Facebook page for News</a>
-                          <h5 style="font-size:16px; color:white; padding:5px; float:left"><br>
-                            Documentary "Woman in the Mirror" is completed. I am very honored to announce that "Woman in the Mirror" will have its world premiere at  <a link href="https://miamijewishfilmfestival.org/">Miami Jewish Film Festival</a>  on 01/14 and the following screening on 10/18. Special thanks to the stars Alexandra Koltun and Alex Lapshin at Koltun Ballet School Boston and people who believe and support this film: John Stefanon, Jan Bronstein, Susan Melville, my crew and to students Paris Mills, Margaret Kuefler, Jack Tang and ALL the students of Koltun Ballet Boston 2019-2021 and their parents, Joan and Joe Kuefler, Mrs. Tang, Dorothy Mills (O'Keefe).</h5>   <h3 class="big" style="color:white; padding:1%; float:right"><i> Trailer</i> <iframe width="560" height="315" float:right; src="https://www.youtube.com/embed/t7HNCV1fA2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></h5>
-			 
-
-<p style="font-size:16px; color:white; padding:1%"><b>Woman in the Mirror</b>
-<br style="font-size:12px; color:white; padding:1%"><i>By Tatyana Bronstein</i> <p>
-<p style="font-size:18px; color:white; padding:1%"> <i>It's amazing what goes into making something effortless.</i></p>
- <p style="font-size:16px; color:white; padding:1%">Nestled in a small New England town is a powerhouse of a ballet school.
-Its genesis includes the dramatic story of a prima ballerina defecting from the Soviet Union, the tenuous climb to financial and artistic freedom, and a no-holds-barred student international competition. In a story revealed in dance studio mirrors, Alexandra, a graduate of the prestigious Vaganova Academy and a driven ballerina, toes her way from being a principal dancer of the Boston Ballet to leading a diverse group of ballet students to compete in a most prestigious competition as she navigates the challenges of running her elite school. 
-	The Soviet Union was a primary example of loss of personal freedom in the 1960’s, but even in the 1990’s there were many problems with freedom of expression, of religious beliefs, and of political self-determination. Alexandra reflects on her life there and comes to understand that it was this innate antisemitism that drove her decision to leave Russia. This is the story of her transition to the American ballet stage that led, after a 25-year career, to a new role as a teacher, and to new challenges as she struggles to adapt to the educational styles of American ballet.
-          </div>
-			 <p style="font-size:14px; color:black; padding-left:1%">
-<p style="font-size:22px; color:indianred; padding:1%"> WHO WE ARE</p>
-     
-Kinochronika is an independent film production company that focuses on character-driven, powerful documentaries and short narrative films. We work in all stages of the filmmaking process.  
-           We develop and produce independent films, commercials, and highlight reels. </p> 	
-               
+                        Kinochronika is an independent film production company that focuses on character-driven, powerful documentaries and short narrative films. We work in all stages of the filmmaking process.  
+                        We develop and produce independent films, commercials, and highlight reels. 
+                    
+                    </p> 	
+                            
 		</div>
-    </main><a style="font-size:18px; color:red; padding:1%"> <a link href="news.html">Read a full release and watch video. Help promote my fundraising campaign</a> <a href="https://fiscal.thegotham.org/project.cfm/2260/Woman-in-the-Mirror/">Donate to the project</a></strong></p>
+    </main>
+    <a style="font-size:18px; color:red; padding:1%"> <a link href="womaninthemirror.html">Read a full release and watch video. Help promote my fundraising campaign</a> <a href="https://fiscal.thegotham.org/project.cfm/2260/Woman-in-the-Mirror/">Donate to the project</a></strong></p>
     <footer>
         <menu>
             <ul>

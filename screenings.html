@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Kinochronika Films</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="film.css" />
+    <script src="script.js"></script>
+    <script src="slick-bg.js"></script>
+    <link rel="stylesheet" href="hero-slick-slider.css" />
+    <link href="slider.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js" type="text/javascript"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="slick-bg.js"></script>
+    <script src="script/script.js"></script>
+    <script>$(document).ready(function () {
+            $('.ct-slick-homepage').slick({
+            });
+        });</script>
+</head>
+<style>
+    .dropbtn {
+            background-color: #ffffff;
+            color: black;
+            padding: 16px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+            margin-left: -2rem;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            margin-left: -2rem;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            border-bottom: 1px solid black;
+        }
+</style>
+<body>
+    <nav>
+        <a href="index.html">
+            <img src="logo.png" />
+        </a>
+        <div id="mySidenav" class="sidenav">
+            <a class="navlink" link href="index.html">Home</a>&nbsp;&nbsp;
+            <a class="navlink" link href="about.html">About</a>&nbsp;&nbsp;
+            <div class="dropdown">
+                <button class="dropbtn">Films</button>
+                <div class="dropdown-content">
+                    <a href="films.html">All films</a>
+                    <a href="womaninthemirror.html">Woman in the Mirror</a>
+                    <a href="prima.html">Prima</a>
+                    <a href="makemedance.html">Make Me Dance</a>
+                    <a href="lovemeagain.html">Love Me Again</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Work</button>
+                <div class="dropdown-content">
+                    <a href="commercials.html">Commercials</a>
+                    <a href="clips.html">Art</a>
+                    <a href="droneworks.html">DroneWorks</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <a class="navlink" href="screenings.html">Screenings</a>
+            <a class="navlink" href="posters.html">Posters</a>
+            <a class="navlink" href="contact.html">Contact</a>
+        </div>
+        <button id="mySidenav" onclick="openNav()"> &#9776;</button>
+
+        <div id="navbox">
+            <a class="navlink" link href="index.html">Home</a>&nbsp;&nbsp;
+            <a class="navlink" link href="about.html">About</a>&nbsp;&nbsp;
+            <div class="dropdown">
+                <button class="dropbtn">Films</button>
+                <div class="dropdown-content">
+                    <a href="films.html">All films</a>
+                    <a href="womaninthemirror.html">Woman in the Mirror</a>
+                    <a href="prima.html">Prima</a>
+                    <a href="makemedance.html">Make Me Dance</a>
+                    <a href="lovemeagain.html">Love Me Again</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Work</button>
+                <div class="dropdown-content">
+                    <a href="commercials.html">Commercials</a>
+                    <a href="clips.html">Art</a>
+                    <a href="droneworks.html">DroneWorks</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <a class="navlink" href="screenings.html">Screenings</a>
+            <a class="navlink" href="posters.html">Posters</a>
+            <a class="navlink" href="contact.html">Contact</a>
+        </div>
+   
+        <div id="social">
+            <a link href="https://youtube.com/user/tatyanabr" target="_blank">
+                <img src="Icons/ytbe.png" style="width:44px;padding-right:10px" />
+            </a>
+            <a link href="https://www.amazon.com/s?k=Tatyana+Bronstein&i=instant-video&rh=n%3A2858778011&ref=atv_dp_pd_dir" target="_blank">
+                <img src="Icons/amazon.png" style="width:44px;padding-right:10px" />
+            </a>
+            <a link href="https://vimeo.com/user9047467" target="_blank">
+                <img src="Icons/vimeo.png" style="width:44px;padding-right:10px;" />
+            </a>
+            <a link href="https://500px.com/tatyana_bronstein/galleries" target="_blank">
+                <img src="Icons/500px.png" style="width:44px;padding-right:10px;" />
+            </a>
+        </div>
+    
+    </nav>
+    <div class="hero" style="background-image:url(Images/bronstein-filming.jpg);">
+        <blockquote style="float:right;">
+            <p>Behind the Camera</p>
+            <h1>Tatyana Bronstein</h1>
+            <p><small>Director and Executive Producer</small></p>
+        </blockquote>
+    </div>
+
+    <main>
+        <div id="wrapper" style="
+            display:flex;
+            justify-content: space-around;
+            gap: 3rem;
+            ">
+            <div class="colone">
+
+                <dt><b><i>Screenings</i></b></dt>
+                <p>
+                    <h4>- Miami Jewish Film Festival</h1>
+                    <ul>
+                        <li>United States</li>
+                        <li>January 14, 2023</li>
+                        <li>World Premiere</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 20%;min-height: 20%;" src="./Images/miamijewishfilmfestivalvert.jpg" alt="miamijewishfilmfestival">
+                    </div>
+                    
+                </p>
+                <p>
+                    <h4>- Women's International Film & Arts Festival</h1>
+                    <ul>
+                        <li>United States</li>
+                        <li>March 25, 2023</li>
+                        <li>World Premiere</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 20%;min-height: 20%;" src="./Images/wifafwitm.jpeg" alt="womensinternationalfimandartsfestival">
+                    </div>
+                </p>
+                <p>
+                    <h4>- IFFBOSTON Independent Film Festival Boston 2023</h1>
+                    <ul>
+                        <li>Boston MA</li>
+                        <li>United States</li>
+                        <li>April 30, 2023</li>
+                        <li>Boston Premiere</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 20%;min-height: 20%;" src="./Images/iffboston.png" alt="iffboston">
+                    </div>
+                </p>
+                <p>
+                    <h4>- 32nd Woods Hole Film Festival</h1>
+                    <ul>
+                        <li>Woods Hole, MA</li>
+                        <li>United States</li>
+                        <li>July 30, 2023</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 20%;min-height: 20%;" src="./Images/woodsholevert.jpg" alt="woodshole">
+                    </div>
+                </p>
+                <p>
+                    <h4>- Docutah</h1>
+                    <ul>
+                        <li>St. George</li>
+                        <li>United States</li>
+                        <li>March 1, 2024</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 20%;min-height: 20%;" src="./Images/docutah.png" alt="docutah">
+                    </div>
+                </p>
+                <p>
+                    <h4>- American Documentary And Animation Film Festival and Film Fund</h1>
+                    <ul>
+                        <li>Palm Springs, California</li>
+                        <li>United States</li>
+                        <li>March 23, 2024</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 30%;min-height: 30%;" src="./Images/amdocs.jpg" alt="americandocfilmfestival">
+                    </div>
+                </p>
+    
+            </div>
+
+            <div class="coltwo">
+
+                <dt><b><i>Awards</i></b></dt>
+                <p>
+                    <h4>- The Women's Independent Film & Television Festival</h1>
+                    <ul>
+                        <li>October 1, 2023</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 20%;min-height: 20%;" src="./Images/womensindfilmtvfestival.webp" alt="womensindfilmtvfestival">
+                    </div>
+                </p>
+                <p>
+                    <h4>- Rome International Movie Awards</h1>
+                    <ul>
+                        <li>Italy</li>
+                        <li>December 10, 2023</li>
+                        <li>Award Winner Documentary</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 20%;min-height: 20%;" src="./Images/romeintmoveawards.jpg" alt="romeintmoveawards">
+                    </div>
+                </p>
+                <p>
+                    <h4>- Cannes World Film Festival</h1>
+                    <ul>
+                        <li>January 15, 2024</li>
+                        <li>Award Winner</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 20%;min-height: 20%;" src="./Images/canneswff.webp" alt="canneswff">
+                    </div>
+                </p>
+                <p>
+                    <h4>- Spotlight Documentary Film Awards</h1>
+                    <ul>
+                        <li>January 31, 2024</li>
+                        <li>Award Winner Documentary</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 20%;min-height: 20%;" src="./Images/spotlightdocfilmawards.png" alt="spotlightdocfilmawards">
+                    </div>
+                </p>
+                <p>
+                    <h4>- Berlin Lift-Off Film Festival</h1>
+                    <ul>
+                        <li>February 12, 2024</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 20%;min-height: 20%;" src="./Images/berlinfilmfestival.jpeg" alt="berlinfilmfestival">
+                    </div>
+                </p>
+                <p>
+                    <h4>- NewFilmmakers NY</h1>
+                    <ul>
+                        <li>Semi-finalist</li>
+                    </ul>
+                    <div class="imgwrapper" style="display:flex;margin: 3rem;">
+                        <img style="max-width: 30%;max-height: 30%;min-width: 20%;min-height: 20%;" src="./Images/newfilmmakersny.jpeg" alt="newfilmmakersny">
+                    </div>
+                </p>
+                
+            </div>
+        </div>
+    </main>
+
+    <div class="hero" style="background-image:url(Images/contact-banner.png);">
+        <blockquote>
+            <p>Cinema is in our name.</p><br>
+            <h2>Laugh. Cry. Feel. <br /> Explore our work.</h2>
+
+            <a link href="work.html" class="button">Discover</a><br>
+                    <dl>
+                           <p style="padding-right:30%;font-size:65%;"> Kinochronika is thrilled to offer films for screenings at universities, museums, community centers, film festivals, and other organizations. We encourage all such institutions to join the appropriate mailing list at the bottom of this page to stay informed about new films available for booking and receive exclusive discounts.
+        </dl>
+    </div>
+    <footer>
+        <menu>
+            <ul>
+                <li><b>Sitemap</b></li>
+                <br />
+                <li><a link href="index.html">Home</a></li>
+                <li><a link href="work.html">Work</a></li>
+                <li><a link href="photography.html">Photography</a></li>
+                <li><a link href="about.html">About</a></li>
+              <li><a href="news.html">News</a></li>
+            </ul>
+        </menu>
+        <img src="black-logo.png" />
+        <p>
+            <small>
+                <b>
+                    Kinochronika Films is an independent studio based in the heart of Boston.
+                </b>
+            </small>
+        </p>
+        <br />
+        <br />
+        <p><small>Copyright &copy; 2019 by Tatyana Bronstein. All rights reserved.</small></p>
+    </footer>
+</body>
+</html>

@@ -23,6 +23,50 @@
         });</script>
     <script src="script/script.js"></script>
 </head>
+
+<style>
+    .dropbtn {
+            background-color: #ffffff;
+            color: black;
+            padding: 16px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+            margin-left: -2rem;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            margin-left: -2rem;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            border-bottom: 1px solid black;
+        }
+</style>
 <body>
     <div>
         <nav style="position:unset;">
@@ -30,23 +74,66 @@
                 <img src="logo.png" />
             </a>
             <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="work.html">Work</a>
-                <a href="news.html">News</a>
-                <a href="contact.html">Contact</a>
+                <a class="navlink" link href="index.html">Home</a>&nbsp;&nbsp;
+            <a class="navlink" link href="about.html">About</a>&nbsp;&nbsp;
+            <div class="dropdown">
+                <button class="dropbtn">Films</button>
+                <div class="dropdown-content">
+                    <a href="films.html">All films</a>
+                    <a href="womaninthemirror.html">Woman in the Mirror</a>
+                    <a href="prima.html">Prima</a>
+                    <a href="makemedance.html">Make Me Dance</a>
+                    <a href="lovemeagain.html">Love Me Again</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Work</button>
+                <div class="dropdown-content">
+                    <a href="commercials.html">Commercials</a>
+                    <a href="clips.html">Art</a>
+                    <a href="droneworks.html">DroneWorks</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <a class="navlink" href="screenings.html">Screenings</a>
+            <a class="navlink" href="posters.html">Posters</a>
+            <a class="navlink" href="contact.html">Contact</a>
             </div>
 
             <!-- Use any element to open the sidenav -->
             <button id="mySidenav" onclick="openNav()"> &#9776;</button>
 
             <div id="navbox">
-                <a link href="index.html">Home</a>&nbsp;&nbsp;
-                <a link href="work.html">Work</a>&nbsp;&nbsp;
-                <a link href="about.html">About</a>&nbsp;&nbsp;
-                <a link href="https://nefilm.wordpress.com/">News</a>&nbsp;&nbsp;
-                <a link href="contact.html">Contact</a>
+                <a class="navlink" link href="index.html">Home</a>&nbsp;&nbsp;
+            <a class="navlink" link href="about.html">About</a>&nbsp;&nbsp;
+            <div class="dropdown">
+                <button class="dropbtn">Films</button>
+                <div class="dropdown-content">
+                    <a href="films.html">All films</a>
+                    <a href="womaninthemirror.html">Woman in the Mirror</a>
+                    <a href="prima.html">Prima</a>
+                    <a href="makemedance.html">Make Me Dance</a>
+                    <a href="lovemeagain.html">Love Me Again</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Work</button>
+                <div class="dropdown-content">
+                    <a href="commercials.html">Commercials</a>
+                    <a href="clips.html">Art</a>
+                    <a href="droneworks.html">DroneWorks</a>
+                    <!-- <a href="#">Ballet Fantaisie</a>
+                    <a href="#">From Russia, My Love</a> -->
+                </div>
+            </div>
+            <a class="navlink" href="screenings.html">Screenings</a>
+            <a class="navlink" href="posters.html">Posters</a>
+            <a class="navlink" href="contact.html">Contact</a>
             </div>
         
             <div id="social">
